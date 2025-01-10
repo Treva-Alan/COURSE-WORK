@@ -71,4 +71,3 @@ CREATE TABLE Malaria cases(
     Malaria_type TEXT,
     FOREIGN KEY (FacilityID) REFERENCES HealthFacility(FacilityID)
 );
-)
